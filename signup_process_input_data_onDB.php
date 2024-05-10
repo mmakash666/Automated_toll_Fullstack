@@ -1,7 +1,7 @@
 <?php
 include('connection.php');
 
- if(isset($_POST["submit"])) {
+ if(isset($_POST['submit'])) {
     // Get form data when the user typed in the form field
     $nid = $_POST["nid"];
     $username = $_POST["username"];

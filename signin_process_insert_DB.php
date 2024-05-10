@@ -6,7 +6,7 @@
     <title>User Info</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
-        /* Additional custom styles */
+       
         .container {
             display: flex;
             justify-content: center;
@@ -39,7 +39,7 @@
     <div class="container">
         <div class="form-container bg-white rounded-lg shadow-lg p-8">
             <h2 class="text-3xl font-semibold text-gray-800 mb-6">User Info</h2>
-            <form>
+            
                 <?php
                 include('connection.php');
 
@@ -82,7 +82,7 @@
                     }
                 }
                 ?>
-            </form>
+            
             <a href ="index.html" class="btn mt-4">Back</a>
         </div>
     </div>
