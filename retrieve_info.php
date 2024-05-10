@@ -56,13 +56,13 @@ if(isset($_POST["sub"])) {
                     $mail->isSMTP();
                     $mail->Host = 'smtp.gmail.com';
                     $mail->SMTPAuth = true;
-                    $mail->Username = 'mmakash666@gmail.com'; // email address
-                    $mail->Password = 'nwtm aotb nfxy uaqz'; // Gmail password generated on the google account app password section
+                    $mail->Username = ''; // email address
+                    $mail->Password = ''; // Gmail password generated on the google account app password section
                     $mail->SMTPSecure = 'tls';
                     $mail->Port = 587;
 
                     // Recipients
-                    $mail->setFrom('mmakash666@gmail.com', 'Mahbub Mokaddes Akash');
+                    $mail->setFrom('', '');
                     $mail->addAddress($mail_sentTo);
 
                     // Email content
